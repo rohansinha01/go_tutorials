@@ -2,5 +2,6 @@ package main
 import "fmt"
 
 func main(){
-	fmt.Println("hello world")
+	var intNum int16 = 32767
+	fmt.Println(intNum)
 }
