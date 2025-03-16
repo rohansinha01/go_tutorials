@@ -1,5 +1,6 @@
 package main
 import "fmt"
+import "rsc.io/quote"
 
 func main(){
 	var intNum int16 = 32767
@@ -20,4 +21,8 @@ func main(){
 	var intNum2 int = 2
 	fmt.Println(intNum1/intNum2)
 	fmt.Println(intNum1%intNum2)
+
+	fmt.Println("Hello, World!")
+
+	fmt.Println(quote.Go())
 }
